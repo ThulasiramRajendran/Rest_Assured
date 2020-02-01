@@ -1,0 +1,13 @@
+{
+	"type": "object",
+	"properties": {
+		"status": {"type":"string"},
+		"name": {"type":"string"},
+		"fileHash": {"type":"string"},
+		"createdOn": {"type":"string"},
+		"bytesCompleted": {"type":"number"},
+		"size": {"type":"number"},
+		"fileId": {"type":"string"}
+	},
+	"required": ["status","name","fileHash","createdOn","bytesCompleted","size","fileId"]
+}

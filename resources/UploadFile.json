@@ -1,0 +1,10 @@
+{
+	"type": "object",
+	"properties": {
+		"fileId": {"type":"string"},
+		"accessKey": {"type":"string"},
+		"secretKey": {"type":"string"},
+		"sessionToken": {"type":"string"}
+	},
+	"required": ["fileId","accessKey","secretKey","sessionToken"]
+}

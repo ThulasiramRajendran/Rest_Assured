@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <parameter name="Status" value="Accept"/>
+  <parameter name="FileId" value="d3899c2a-c9b0-4eb1-a730-f10a93811c83"/>
+  <test thread-count="5" name="Test1">
+    <classes>
+      <class name="api.tests.Sharebox_API">
+      	<methods>
+      		<include name="verify_accept_reject_shared_file" />
+      	</methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
